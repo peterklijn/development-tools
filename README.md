@@ -4,3 +4,4 @@
 - [Git push & set upstream](./git-push-up)
 - [Sublime open as project](./sublime-open-as-project)
 - [Sublime generate project](./sublime-gen-project)
+- [Stress & unstress CPU](./stress-cpu)
