@@ -2,3 +2,4 @@
 
 - [Intellij color theme - Wombat custom](./intellij-wombat-colors-custom)
 - [Git push & set upstream](./git-push-up)
+- [Sublime open as project](./sublime-open-as-project)
