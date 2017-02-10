@@ -1,7 +1,5 @@
 function genSublime {
-  SPLIT_CUR_DIR=$(echo $PWD | tr "/" "\n")
-  LENGTH=${#SPLIT_CUR_DIR[@]}
-  FOLDERNAME=${SPLIT_CUR_DIR[ $LENGTH - 1 ]}
+  FOLDERNAME=$(echo $PWD | tr "/" "\n" | awk '/./{line=$0} END{print line}')
 
   if ls | grep -q .sublime-project; then
     echo 'There is already an sublime-project'
