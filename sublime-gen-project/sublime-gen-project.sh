@@ -7,7 +7,7 @@ function genSublime {
     CONFIG="""{
       \"folders\": [{
         \"path\": \"${PWD}\",
-        \"folder_exclude_patterns\": [\"target\",\"dist\", \"node_modules\", \".tmp\", \".sublime\"]
+        \"folder_exclude_patterns\": [\"target\",\"dist\", \"node_modules\", \".tmp\", \".sublime\", \".idea\"]
       }]
     }
     """
